@@ -1,0 +1,128 @@
+.tekst {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+body {
+    background-image: url('ab.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3px;
+    box-sizing: border-box;
+    background-color: snow;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.6);
+}
+
+.left {
+    width: 25vw;
+    margin: 2px 0;
+    border-right: 5px groove black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.514);
+    font-family: tekst;
+}
+
+#centar {
+    margin: 10px auto;
+    float: right;
+    width: 62vw;
+    text-align: center;
+    font-family: tekst;
+}
+
+#slika {
+    margin: 0 auto;
+    width: 225px;
+    height: 225px;
+    border: 5px solid rgb(59, 59, 59);
+    border-radius: 225px;
+    overflow: hidden;
+    transition: 2s
+}
+
+.skill {
+    margin: 5px auto;
+    width: 90%;
+    height: 20px;
+    background-color: darkgray;
+    border: 1px solid rgba(59, 59, 59, 0.10);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.nivo {
+    height: 20px;
+    background-color: rgba(15, 31, 255, 0.5);
+    color: snow;
+    text-align: right;
+}
+
+.nivo01 {
+    height: 20px;
+    background-color: rgba(15, 255, 75, 0.7);
+}
+
+#slika:hover {
+    border-radius: 10px;
+    border: 4px solid rgba(15, 31, 255, 0.5);
+    cursor: wait;
+}
+
+.firma {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    height: 3.5rem;
+}
+
+.firma h3 {
+    float: left;
+    display: inline;
+    text-align: left;
+}
+
+.firma p {
+    float: right;
+    display: inline;
+    text-align: right;
+}
+
+.ofirmi {
+    text-align: left;
+    margin: 1rem;
+    border-bottom: 2px groove rgba(15, 31, 255, 0.5);
+}
+
+#edukacija p {
+    text-align: left;
+    margin: 1rem;
+}
+
+#kurs p {
+    text-align: left;
+    margin: 1rem;
+    11
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    background-color: yellowgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: snow;
+}
